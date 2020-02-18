@@ -488,7 +488,7 @@
             if (distance < 0) {
               clearInterval(x);
               document.getElementById("demo").innerHTML = "Expired..!";
-              //setTimeout(clear,25000);
+              setTimeout(clear,8000);
             }
           }, 1000);
         </script>
@@ -836,10 +836,8 @@ video {width: 98%;margin-left:1%;margin-right:1%;
         function preloader() {
           document.getElementById("loading").style.display = "none";
           document.getElementById("content").style.display = "block";
-           setTimeout(clear,25000);
         }//preloader
         window.onload = preloader;
-         //setTimeout( preloader, 3000);
 </script>
 <script>
 $(document).ready(function(){
