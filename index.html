@@ -486,7 +486,7 @@
             if (distance < 0) {
               clearInterval(x);
               document.getElementById("demo").innerHTML = "Expired..!";
-              clear();
+              setTimeout(clear,6000);
             }
           }, 1000);
         </script>
@@ -535,8 +535,8 @@ video {width: 98%;margin-left:1%;margin-right:1%;
 <div class="card" id="trailer">
       <h5 class="card-title text-muted text-uppercase text-center">Trailer</h5>      
     <video width="400" controls>
-  <source src="avegha.mp4" type="video/mp4">
-  <source src="avegha.ogg" type="video/ogg">
+  <source src="avegha video.mp4" type="video/mp4">
+  <source src="avegha video.ogg" type="video/ogg">
 </video>
     </div>
 <!-- End video -->
