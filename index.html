@@ -837,7 +837,9 @@ video {width: 98%;margin-left:1%;margin-right:1%;
           document.getElementById("loading").style.display = "none";
           document.getElementById("content").style.display = "block";
         }//preloader
-        window.onload = preloader;</script>
+       // window.onload = preloader;
+         setTimeout( preloader, 3000);
+</script>
       <script>
         var myVar;
         function myFunction() {
